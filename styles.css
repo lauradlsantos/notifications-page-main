@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: hsl(210, 60%, 98%);
+}
+
+img {
+    width: 100%;
+    margin-right: 5px;
+}
+.container {
+    background-color: white;
+    margin: 50px 100px 50px 100px;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+.posts {
+    display: grid;
+    align-content: space-around
+    
+}
+.comment {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    padding: 10px;
+    background-color: hsl(210, 60%, 98%);
+    margin: 5px;
+    border-radius: 5%;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
