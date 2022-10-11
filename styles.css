@@ -3,12 +3,27 @@
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: hsl(210, 60%, 98%);
+    color: hsl(219, 14%, 63%);
 }
 
 img {
-    width: 100%;
-    margin-right: 5px;
+    width: 50%;
+    margin-right: 15px;
 }
+
+.title {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+color: black;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .container {
     background-color: white;
     margin: 50px 100px 50px 100px;
@@ -25,11 +40,25 @@ img {
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
     padding: 10px;
-    background-color: hsl(210, 60%, 98%);
+    background-color: white;
     margin: 5px;
     border-radius: 5%;
 }
 
+.unread{
+    background-color: hsl(210, 60%, 98%);
+}
+
+.text{
+    border: solid 2px;
+    border-color:hsl(205, 33%, 90%) ;
+    padding: 20px;
+}
+
+.text:hover {
+    background-color: hsl(205, 33%, 90%);
+    padding: 20px;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
